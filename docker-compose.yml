@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+
+  app:
+    container_name: code-server
+    build:
+      context: .
+    ports:
+      - 8080:80
+    environment:
+      - PASSWORD=thefutureisfamily
+      - BITLY_API_TOKEN=558a5eb4e5810a946aedcd1a09d6143d43db351b
+
