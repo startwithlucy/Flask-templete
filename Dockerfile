@@ -11,7 +11,7 @@ WORKDIR /home/coder
 
 
 
-COPY . ./interview
+COPY . ./src
 
 EXPOSE 80
 
